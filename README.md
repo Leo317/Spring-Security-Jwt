@@ -33,7 +33,7 @@ Use one of the several ways of running a Spring Boot application. Below are just
    `$ curl client:secret@localhost:8080/oauth/token -d grant_type=password -d username=user -d password=pwd`
 
    For this specific application, to generate an access token for the non-admin user john.doe, run:
-   `$ curl testjwtclientid:XY7kmzoNzl100@localhost:8080/oauth/token -d grant_type=password -d username=john.doe -d password=jwtpass`
+   `$ curl fundoopay:XY7kmzoNzl100@localhost:8080/oauth/token -d grant_type=password -d username=john.doe -d password=jwtpass`
     You'll receive a response similar to below
 
     `
